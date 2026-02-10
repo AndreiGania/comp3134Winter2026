@@ -1,0 +1,14 @@
+tcpdump -r 0001.pcap
+
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+23:52:37.490311 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > 198.211.111.194.58961: Flags [P.], seq 3209757915:3209758059, ack 1933566495, win 500, options [nop,nop,TS val 3309710260 ecr 1928386967], length 144
+23:52:37.494120 IP 198.211.111.194.58961 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 0, win 1213, options [nop,nop,TS val 1928386983 ecr 3309710248], length 0
+23:52:37.505474 IP 198.211.111.194.58961 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144, win 1213, options [nop,nop,TS val 1928386994 ecr 3309710260], length 0
+23:52:41.819167 IP 157.230.126.3.50710 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.4312: Flags [S], seq 269285535, win 1024, length 0
+23:52:52.750368 IP 198.211.111.194.58961 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144, win 1213, options [nop,nop,TS val 1928402239 ecr 3309710260], length 0
+23:52:52.750416 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > 198.211.111.194.58961: Flags [.], ack 1, win 500, options [nop,nop,TS val 3309725520 ecr 1928386994], length 0
+23:52:53.091607 IP 158.94.211.100.14812 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.16379: Flags [S], seq 833859320, win 14600, options [mss 1460,nop,wscale 3,nop,nop,sackOK], length 0
+23:52:54.201724 IP 150.107.36.236.34323 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.16509: Flags [S], seq 3199575320, win 64395, options [mss 1412,nop,wscale 8,nop,nop,sackOK], length 0
+23:53:07.854353 IP 198.211.111.194.58961 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144, win 1213, options [nop,nop,TS val 1928417343 ecr 3309725520], length 0
+23:53:07.854422 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > 198.211.111.194.58961: Flags [.], ack 1, win 500, options [nop,nop,TS val 3309740624 ecr 1928386994], length 0
+23:53:15.790936 IP 33.146.94.167.censys-scanner.com.46524 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.57050: Flags [S], seq 2199156711, win 42340, options [mss 1460,sackOK,TS val 1767723464 ecr 0,nop,wscale 10], length 0
