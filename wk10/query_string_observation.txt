@@ -1,0 +1,10 @@
+When entering a valid English word in the form, the website successfully returns the correct definition of the word. 
+
+
+When entering an invalid English word in the URL, the website suggests similar words instead and gives the result instead. 
+
+
+When entering the script in form it says sorry you have been blocked and you are unable to access.
+
+
+Same thing happens when entering script in url sorry you have been blocked and unable to access page.

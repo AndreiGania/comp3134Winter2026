@@ -1,0 +1,7 @@
+strip_tags() removes HTML and script tags completely from the user input.
+
+htmlspecialchars() converts special characters into HTML entities so that the browser displays them as text instead of executing them.
+
+The difference is that strip_tags() deletes the tags, while htmlspecialchars() keeps the original input but makes it safe.
+
+htmlspecialchars() is more secure because it prevents execution while preserving the user’s input.
