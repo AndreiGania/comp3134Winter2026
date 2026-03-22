@@ -1,0 +1,3 @@
+To mitigate the issue, I converted all HTML comments into PHP comments.
+HTML comments are visible in the browser source code and can expose sensitive information such as employee names and IDs. 
+By using PHP comments instead, the information is processed on the server side and is not sent to the client browser. This prevents users from viewing sensitive data through the page source.

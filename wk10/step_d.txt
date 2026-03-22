@@ -1,0 +1,6 @@
+When accessing the URL with ?q=hello, the page displays warning messages instead of a clean output. 
+The error shows that the directory "hello" does not exist. However, the page reveals internal system details 
+such as the file path and the line number where the error occurred.
+
+
+The page exposes sensitive information like the file path, name of php file and exact error line

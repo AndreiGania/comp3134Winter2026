@@ -1,0 +1,3 @@
+I will mitigate the two problems by validating the user input before passing it to scandir().
+First, I will prevent directory traversal by using basename() so the user can only provide a folder name inside the current html directory. This stops input such as ../ or encoded traversal attempts from moving outside the web root.
+Second, I will use file_exists() to check whether the requested folder actually exists before trying to scan it.

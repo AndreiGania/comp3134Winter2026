@@ -1,0 +1,4 @@
+When accessing the URL with ?q=%2e%2e%2f, the application successfully interprets the encoded input and moves one directory up. 
+The page displays contents of the parent directory, including folders like "html".
+
+What sensitive information is given by this page is the directory structure of the server outside the web root, internal folder names like html.

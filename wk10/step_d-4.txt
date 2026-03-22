@@ -1,0 +1,6 @@
+The application lists directories from higher levels in the file system instead of restricting access to the web root. 
+The output shows system-level directories such as lib, usr, tmp, var, and others.
+
+This indicates that the application allows directory traversal by accepting user input without validation and passing it directly into the scandir() function.
+
+Sensitive information is given by this page includes structure of servers file system, names of directories
