@@ -1,0 +1,1 @@
+When using csfr_form.php, the request succeeds because it includes a valid session token. When using csrf.html, the request fails because it does not include the correct token.
