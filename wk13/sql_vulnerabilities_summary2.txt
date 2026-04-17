@@ -1,0 +1,5 @@
+Typing  ben does the same thing as before with no results
+
+"ben'-- " now does nothing
+
+and ben' or 1=1 there is no injection

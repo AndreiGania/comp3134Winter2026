@@ -1,0 +1,5 @@
+Entering Ben returns no results because the query requires active = 1 and Ben is inactive.
+
+The input "Ben'-- " bypasses the active = 1 condition by commenting it out, makes it so that inactive records to be returned. This demonstrates a SQL injection vulnerability.
+
+The input "Ben' or 1=1" makes the condition always true, so the query to return all active users instead of filtering by first name.
